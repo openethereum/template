@@ -1,0 +1,20 @@
+[files]
+directories = ["abis", "contracts", "migrations", "test"]
+templates = [
+  ".editorconfig",
+  ".gitattributes",
+  ".gitignore",
+  ".soliumignore",
+  ".soliumrc.json",
+  ".travis.yml",
+  "LICENSE",
+  "README.md",
+  "contracts/Migrations.sol",
+  "migrations/1_initial_migration.js",
+  "package.json",
+  "truffle-config.js"
+]
+
+[config]
+version_control = "git"
+version = "0.1.0"
