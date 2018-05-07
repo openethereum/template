@@ -1,5 +1,5 @@
 [files]
-directories = ["abis", "contracts", "migrations", "test"]
+directories = ["contracts", "migrations", "test"]
 templates = [
   ".editorconfig",
   ".gitattributes",
