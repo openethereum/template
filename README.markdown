@@ -16,3 +16,10 @@ pi git parity-contracts/template project-name
 ```
 
 The generator will ask you for your name and email but these will be ignored when generating the project.
+
+## Things to Do After Creating a Project
+
+* Enable CIs, including Travis, Coveralls and BuildKite.
+* For BuildKite, set up a command that runs `slither contracts` using the `slither=true` containers.
+* Set up `master` as a protected branch. Only allow pushing when Travis and Coveralls CI succeed, and require code owners' review, with at least 2 reviews for each PR.
+* Set up CODEOWNERS. The owners should be set up according to existing committers/maintainers.
